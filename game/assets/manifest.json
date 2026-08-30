@@ -1,0 +1,1122 @@
+{
+ "ground.grass": {
+  "f": "sprites/ground__grass.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.grass_dry": {
+  "f": "sprites/ground__grass_dry.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.dirt": {
+  "f": "sprites/ground__dirt.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.sand": {
+  "f": "sprites/ground__sand.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.gravel": {
+  "f": "sprites/ground__gravel.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.asphalt": {
+  "f": "sprites/ground__asphalt.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.paving": {
+  "f": "sprites/ground__paving.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.brick_pave": {
+  "f": "sprites/ground__brick_pave.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.snow": {
+  "f": "sprites/ground__snow.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.autumn_leaves": {
+  "f": "sprites/ground__autumn_leaves.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.mud": {
+  "f": "sprites/ground__mud.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.moss": {
+  "f": "sprites/ground__moss.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.water": {
+  "f": "sprites/ground__water.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.field": {
+  "f": "sprites/ground__field.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.asphalt_old": {
+  "f": "sprites/ground__asphalt_old.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "ground.grass_flowers": {
+  "f": "sprites/ground__grass_flowers.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "nature.tree_young": {
+  "f": "sprites/nature__tree_young.png",
+  "w": 59,
+  "h": 64,
+  "ax": 29,
+  "ay": 63
+ },
+ "nature.tree_birch": {
+  "f": "sprites/nature__tree_birch.png",
+  "w": 53,
+  "h": 64,
+  "ax": 26,
+  "ay": 63
+ },
+ "nature.tree_fir": {
+  "f": "sprites/nature__tree_fir.png",
+  "w": 56,
+  "h": 64,
+  "ax": 28,
+  "ay": 63
+ },
+ "nature.bush": {
+  "f": "sprites/nature__bush.png",
+  "w": 64,
+  "h": 62,
+  "ax": 32,
+  "ay": 61
+ },
+ "nature.flowers": {
+  "f": "sprites/nature__flowers.png",
+  "w": 46,
+  "h": 64,
+  "ax": 23,
+  "ay": 63
+ },
+ "nature.rocks": {
+  "f": "sprites/nature__rocks.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 63
+ },
+ "nature.tree_autumn": {
+  "f": "sprites/nature__tree_autumn.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 63
+ },
+ "nature.tree_winter": {
+  "f": "sprites/nature__tree_winter.png",
+  "w": 56,
+  "h": 64,
+  "ax": 28,
+  "ay": 63
+ },
+ "nature.bush_berries": {
+  "f": "sprites/nature__bush_berries.png",
+  "w": 64,
+  "h": 60,
+  "ax": 32,
+  "ay": 59
+ },
+ "nature.reeds": {
+  "f": "sprites/nature__reeds.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 63
+ },
+ "nature.hedge": {
+  "f": "sprites/nature__hedge.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 63
+ },
+ "nature.pumpkins": {
+  "f": "sprites/nature__pumpkins.png",
+  "w": 60,
+  "h": 64,
+  "ax": 30,
+  "ay": 63
+ },
+ "nature.tree_xmas": {
+  "f": "sprites/nature__tree_xmas.png",
+  "w": 54,
+  "h": 64,
+  "ax": 27,
+  "ay": 63
+ },
+ "nature.woodpile": {
+  "f": "sprites/nature__woodpile.png",
+  "w": 64,
+  "h": 53,
+  "ax": 32,
+  "ay": 52
+ },
+ "nature.flowerbed": {
+  "f": "sprites/nature__flowerbed.png",
+  "w": 64,
+  "h": 58,
+  "ax": 32,
+  "ay": 57
+ },
+ "nature.sapling": {
+  "f": "sprites/nature__sapling.png",
+  "w": 55,
+  "h": 64,
+  "ax": 27,
+  "ay": 63
+ },
+ "bldg_res.izba": {
+  "f": "sprites/bldg_res__izba.png",
+  "w": 64,
+  "h": 61,
+  "ax": 32,
+  "ay": 48
+ },
+ "bldg_res.house_wood2": {
+  "f": "sprites/bldg_res__house_wood2.png",
+  "w": 59,
+  "h": 64,
+  "ax": 29,
+  "ay": 51
+ },
+ "bldg_res.khrush": {
+  "f": "sprites/bldg_res__khrush.png",
+  "w": 61,
+  "h": 64,
+  "ax": 30,
+  "ay": 51
+ },
+ "bldg_res.tower9": {
+  "f": "sprites/bldg_res__tower9.png",
+  "w": 42,
+  "h": 64,
+  "ax": 21,
+  "ay": 51
+ },
+ "bldg_res.brick_modern": {
+  "f": "sprites/bldg_res__brick_modern.png",
+  "w": 56,
+  "h": 64,
+  "ax": 28,
+  "ay": 51
+ },
+ "bldg_res.pastel_block": {
+  "f": "sprites/bldg_res__pastel_block.png",
+  "w": 64,
+  "h": 63,
+  "ax": 32,
+  "ay": 50
+ },
+ "bldg_res.cottage": {
+  "f": "sprites/bldg_res__cottage.png",
+  "w": 64,
+  "h": 58,
+  "ax": 32,
+  "ay": 46
+ },
+ "bldg_res.izba_green": {
+  "f": "sprites/bldg_res__izba_green.png",
+  "w": 64,
+  "h": 59,
+  "ax": 32,
+  "ay": 47
+ },
+ "bldg_res.courtyard_pair": {
+  "f": "sprites/bldg_res__courtyard_pair.png",
+  "w": 64,
+  "h": 63,
+  "ax": 32,
+  "ay": 50
+ },
+ "bldg_res.barracks": {
+  "f": "sprites/bldg_res__barracks.png",
+  "w": 64,
+  "h": 49,
+  "ax": 32,
+  "ay": 39
+ },
+ "bldg_res.house_garage": {
+  "f": "sprites/bldg_res__house_garage.png",
+  "w": 64,
+  "h": 60,
+  "ax": 32,
+  "ay": 48
+ },
+ "bldg_res.block_dishes": {
+  "f": "sprites/bldg_res__block_dishes.png",
+  "w": 61,
+  "h": 64,
+  "ax": 30,
+  "ay": 51
+ },
+ "bldg_res.khrush_snow": {
+  "f": "sprites/bldg_res__khrush_snow.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 51
+ },
+ "bldg_res.house_yellow": {
+  "f": "sprites/bldg_res__house_yellow.png",
+  "w": 64,
+  "h": 61,
+  "ax": 32,
+  "ay": 48
+ },
+ "bldg_res.townhouses": {
+  "f": "sprites/bldg_res__townhouses.png",
+  "w": 64,
+  "h": 55,
+  "ax": 32,
+  "ay": 44
+ },
+ "bldg_res.house_greenhouse": {
+  "f": "sprites/bldg_res__house_greenhouse.png",
+  "w": 64,
+  "h": 55,
+  "ax": 32,
+  "ay": 44
+ },
+ "bldg_civic.townhall": {
+  "f": "sprites/bldg_civic__townhall.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 51
+ },
+ "bldg_civic.school": {
+  "f": "sprites/bldg_civic__school.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 51
+ },
+ "bldg_civic.hospital": {
+  "f": "sprites/bldg_civic__hospital.png",
+  "w": 64,
+  "h": 56,
+  "ax": 32,
+  "ay": 44
+ },
+ "bldg_civic.firestation": {
+  "f": "sprites/bldg_civic__firestation.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 51
+ },
+ "bldg_civic.police": {
+  "f": "sprites/bldg_civic__police.png",
+  "w": 64,
+  "h": 60,
+  "ax": 32,
+  "ay": 48
+ },
+ "bldg_civic.church": {
+  "f": "sprites/bldg_civic__church.png",
+  "w": 36,
+  "h": 64,
+  "ax": 18,
+  "ay": 51
+ },
+ "bldg_civic.culture": {
+  "f": "sprites/bldg_civic__culture.png",
+  "w": 64,
+  "h": 61,
+  "ax": 32,
+  "ay": 48
+ },
+ "bldg_civic.kindergarten": {
+  "f": "sprites/bldg_civic__kindergarten.png",
+  "w": 64,
+  "h": 61,
+  "ax": 32,
+  "ay": 48
+ },
+ "bldg_civic.polyclinic": {
+  "f": "sprites/bldg_civic__polyclinic.png",
+  "w": 64,
+  "h": 58,
+  "ax": 32,
+  "ay": 46
+ },
+ "bldg_civic.library": {
+  "f": "sprites/bldg_civic__library.png",
+  "w": 64,
+  "h": 62,
+  "ax": 32,
+  "ay": 49
+ },
+ "bldg_civic.sport": {
+  "f": "sprites/bldg_civic__sport.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 51
+ },
+ "bldg_civic.boilerhouse": {
+  "f": "sprites/bldg_civic__boilerhouse.png",
+  "w": 54,
+  "h": 64,
+  "ax": 27,
+  "ay": 51
+ },
+ "bldg_civic.watertower": {
+  "f": "sprites/bldg_civic__watertower.png",
+  "w": 55,
+  "h": 64,
+  "ax": 27,
+  "ay": 51
+ },
+ "bldg_civic.substation": {
+  "f": "sprites/bldg_civic__substation.png",
+  "w": 64,
+  "h": 63,
+  "ax": 32,
+  "ay": 50
+ },
+ "bldg_civic.station": {
+  "f": "sprites/bldg_civic__station.png",
+  "w": 63,
+  "h": 64,
+  "ax": 31,
+  "ay": 51
+ },
+ "bldg_civic.museum": {
+  "f": "sprites/bldg_civic__museum.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 51
+ },
+ "bldg_econ.factory": {
+  "f": "sprites/bldg_econ__factory.png",
+  "w": 59,
+  "h": 64,
+  "ax": 29,
+  "ay": 51
+ },
+ "bldg_econ.warehouse": {
+  "f": "sprites/bldg_econ__warehouse.png",
+  "w": 64,
+  "h": 60,
+  "ax": 32,
+  "ay": 48
+ },
+ "bldg_econ.gasstation": {
+  "f": "sprites/bldg_econ__gasstation.png",
+  "w": 64,
+  "h": 54,
+  "ax": 32,
+  "ay": 43
+ },
+ "bldg_econ.garage": {
+  "f": "sprites/bldg_econ__garage.png",
+  "w": 64,
+  "h": 57,
+  "ax": 32,
+  "ay": 45
+ },
+ "bldg_econ.supermarket": {
+  "f": "sprites/bldg_econ__supermarket.png",
+  "w": 64,
+  "h": 59,
+  "ax": 32,
+  "ay": 47
+ },
+ "bldg_econ.grocery": {
+  "f": "sprites/bldg_econ__grocery.png",
+  "w": 64,
+  "h": 58,
+  "ax": 32,
+  "ay": 46
+ },
+ "bldg_econ.cafe": {
+  "f": "sprites/bldg_econ__cafe.png",
+  "w": 64,
+  "h": 63,
+  "ax": 32,
+  "ay": 50
+ },
+ "bldg_econ.bakery": {
+  "f": "sprites/bldg_econ__bakery.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 51
+ },
+ "bldg_econ.bank": {
+  "f": "sprites/bldg_econ__bank.png",
+  "w": 63,
+  "h": 64,
+  "ax": 31,
+  "ay": 51
+ },
+ "bldg_econ.it_office": {
+  "f": "sprites/bldg_econ__it_office.png",
+  "w": 59,
+  "h": 64,
+  "ax": 29,
+  "ay": 51
+ },
+ "bldg_econ.greenhouses": {
+  "f": "sprites/bldg_econ__greenhouses.png",
+  "w": 64,
+  "h": 53,
+  "ax": 32,
+  "ay": 42
+ },
+ "bldg_econ.sawmill": {
+  "f": "sprites/bldg_econ__sawmill.png",
+  "w": 64,
+  "h": 61,
+  "ax": 32,
+  "ay": 48
+ },
+ "bldg_econ.hotel": {
+  "f": "sprites/bldg_econ__hotel.png",
+  "w": 52,
+  "h": 64,
+  "ax": 26,
+  "ay": 51
+ },
+ "bldg_econ.cinema": {
+  "f": "sprites/bldg_econ__cinema.png",
+  "w": 62,
+  "h": 64,
+  "ax": 31,
+  "ay": 51
+ },
+ "bldg_econ.market": {
+  "f": "sprites/bldg_econ__market.png",
+  "w": 64,
+  "h": 58,
+  "ax": 32,
+  "ay": 46
+ },
+ "bldg_econ.barn": {
+  "f": "sprites/bldg_econ__barn.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 51
+ },
+ "vehicles.lada_white": {
+  "f": "sprites/vehicles__lada_white.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.hatch_red": {
+  "f": "sprites/vehicles__hatch_red.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.sedan_silver": {
+  "f": "sprites/vehicles__sedan_silver.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.taxi": {
+  "f": "sprites/vehicles__taxi.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.uaz_green": {
+  "f": "sprites/vehicles__uaz_green.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.truck_blue": {
+  "f": "sprites/vehicles__truck_blue.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.kamaz": {
+  "f": "sprites/vehicles__kamaz.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.bus": {
+  "f": "sprites/vehicles__bus.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.marshrutka": {
+  "f": "sprites/vehicles__marshrutka.png",
+  "w": 61,
+  "h": 64,
+  "ax": 30,
+  "ay": 32
+ },
+ "vehicles.tram": {
+  "f": "sprites/vehicles__tram.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.ambulance": {
+  "f": "sprites/vehicles__ambulance.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "vehicles.police_car": {
+  "f": "sprites/vehicles__police_car.png",
+  "w": 60,
+  "h": 64,
+  "ax": 30,
+  "ay": 32
+ },
+ "vehicles.fire_truck": {
+  "f": "sprites/vehicles__fire_truck.png",
+  "w": 64,
+  "h": 55,
+  "ax": 32,
+  "ay": 27
+ },
+ "vehicles.snowplow": {
+  "f": "sprites/vehicles__snowplow.png",
+  "w": 64,
+  "h": 52,
+  "ax": 32,
+  "ay": 26
+ },
+ "vehicles.tanker": {
+  "f": "sprites/vehicles__tanker.png",
+  "w": 64,
+  "h": 53,
+  "ax": 32,
+  "ay": 26
+ },
+ "vehicles.van_blue": {
+  "f": "sprites/vehicles__van_blue.png",
+  "w": 64,
+  "h": 56,
+  "ax": 32,
+  "ay": 28
+ },
+ "people.man": {
+  "f": "sprites/people__man.png",
+  "w": 16,
+  "h": 32,
+  "ax": 8,
+  "ay": 31
+ },
+ "people.woman": {
+  "f": "sprites/people__woman.png",
+  "w": 17,
+  "h": 32,
+  "ax": 8,
+  "ay": 31
+ },
+ "people.babushka": {
+  "f": "sprites/people__babushka.png",
+  "w": 16,
+  "h": 32,
+  "ax": 8,
+  "ay": 31
+ },
+ "people.ded": {
+  "f": "sprites/people__ded.png",
+  "w": 18,
+  "h": 32,
+  "ax": 9,
+  "ay": 31
+ },
+ "people.kid": {
+  "f": "sprites/people__kid.png",
+  "w": 16,
+  "h": 32,
+  "ax": 8,
+  "ay": 31
+ },
+ "people.schoolgirl": {
+  "f": "sprites/people__schoolgirl.png",
+  "w": 18,
+  "h": 32,
+  "ax": 9,
+  "ay": 31
+ },
+ "people.worker": {
+  "f": "sprites/people__worker.png",
+  "w": 24,
+  "h": 32,
+  "ax": 12,
+  "ay": 31
+ },
+ "people.businessman": {
+  "f": "sprites/people__businessman.png",
+  "w": 16,
+  "h": 32,
+  "ax": 8,
+  "ay": 31
+ },
+ "people.tourist": {
+  "f": "sprites/people__tourist.png",
+  "w": 20,
+  "h": 32,
+  "ax": 10,
+  "ay": 31
+ },
+ "people.summer_girl": {
+  "f": "sprites/people__summer_girl.png",
+  "w": 20,
+  "h": 32,
+  "ax": 10,
+  "ay": 31
+ },
+ "people.policeman": {
+  "f": "sprites/people__policeman.png",
+  "w": 16,
+  "h": 32,
+  "ax": 8,
+  "ay": 31
+ },
+ "people.doctor": {
+  "f": "sprites/people__doctor.png",
+  "w": 16,
+  "h": 32,
+  "ax": 8,
+  "ay": 31
+ },
+ "people.musician": {
+  "f": "sprites/people__musician.png",
+  "w": 23,
+  "h": 32,
+  "ax": 11,
+  "ay": 31
+ },
+ "people.fisherman": {
+  "f": "sprites/people__fisherman.png",
+  "w": 25,
+  "h": 32,
+  "ax": 12,
+  "ay": 31
+ },
+ "people.winter_person": {
+  "f": "sprites/people__winter_person.png",
+  "w": 17,
+  "h": 32,
+  "ax": 8,
+  "ay": 31
+ },
+ "people.cat": {
+  "f": "sprites/people__cat.png",
+  "w": 29,
+  "h": 32,
+  "ax": 14,
+  "ay": 31
+ },
+ "props.bench": {
+  "f": "sprites/props__bench.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 31
+ },
+ "props.lamp": {
+  "f": "sprites/props__lamp.png",
+  "w": 32,
+  "h": 31,
+  "ax": 16,
+  "ay": 30
+ },
+ "props.bin": {
+  "f": "sprites/props__bin.png",
+  "w": 32,
+  "h": 28,
+  "ax": 16,
+  "ay": 27
+ },
+ "props.fence_wood": {
+  "f": "sprites/props__fence_wood.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 31
+ },
+ "props.busstop": {
+  "f": "sprites/props__busstop.png",
+  "w": 32,
+  "h": 31,
+  "ax": 16,
+  "ay": 30
+ },
+ "props.stall": {
+  "f": "sprites/props__stall.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 31
+ },
+ "props.kiosk": {
+  "f": "sprites/props__kiosk.png",
+  "w": 32,
+  "h": 31,
+  "ax": 16,
+  "ay": 30
+ },
+ "props.slide": {
+  "f": "sprites/props__slide.png",
+  "w": 31,
+  "h": 32,
+  "ax": 15,
+  "ay": 31
+ },
+ "props.swings": {
+  "f": "sprites/props__swings.png",
+  "w": 31,
+  "h": 32,
+  "ax": 15,
+  "ay": 31
+ },
+ "props.sandbox": {
+  "f": "sprites/props__sandbox.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 31
+ },
+ "props.fountain": {
+  "f": "sprites/props__fountain.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 31
+ },
+ "props.monument": {
+  "f": "sprites/props__monument.png",
+  "w": 24,
+  "h": 32,
+  "ax": 12,
+  "ay": 31
+ },
+ "props.billboard": {
+  "f": "sprites/props__billboard.png",
+  "w": 27,
+  "h": 32,
+  "ax": 13,
+  "ay": 31
+ },
+ "props.traffic_light": {
+  "f": "sprites/props__traffic_light.png",
+  "w": 22,
+  "h": 32,
+  "ax": 11,
+  "ay": 31
+ },
+ "props.planter": {
+  "f": "sprites/props__planter.png",
+  "w": 29,
+  "h": 32,
+  "ax": 14,
+  "ay": 31
+ },
+ "props.well": {
+  "f": "sprites/props__well.png",
+  "w": 28,
+  "h": 32,
+  "ax": 14,
+  "ay": 31
+ },
+ "icons.coin": {
+  "f": "sprites/icons__coin.png",
+  "w": 29,
+  "h": 32,
+  "ax": 14,
+  "ay": 16
+ },
+ "icons.coins": {
+  "f": "sprites/icons__coins.png",
+  "w": 32,
+  "h": 30,
+  "ax": 16,
+  "ay": 15
+ },
+ "icons.house": {
+  "f": "sprites/icons__house.png",
+  "w": 32,
+  "h": 29,
+  "ax": 16,
+  "ay": 14
+ },
+ "icons.people": {
+  "f": "sprites/icons__people.png",
+  "w": 32,
+  "h": 26,
+  "ax": 16,
+  "ay": 13
+ },
+ "icons.heart": {
+  "f": "sprites/icons__heart.png",
+  "w": 30,
+  "h": 32,
+  "ax": 15,
+  "ay": 16
+ },
+ "icons.star": {
+  "f": "sprites/icons__star.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "icons.job": {
+  "f": "sprites/icons__job.png",
+  "w": 32,
+  "h": 29,
+  "ax": 16,
+  "ay": 14
+ },
+ "icons.fuel": {
+  "f": "sprites/icons__fuel.png",
+  "w": 28,
+  "h": 32,
+  "ax": 14,
+  "ay": 16
+ },
+ "icons.bolt": {
+  "f": "sprites/icons__bolt.png",
+  "w": 28,
+  "h": 32,
+  "ax": 14,
+  "ay": 16
+ },
+ "icons.drop": {
+  "f": "sprites/icons__drop.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "icons.flame": {
+  "f": "sprites/icons__flame.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "icons.travel": {
+  "f": "sprites/icons__travel.png",
+  "w": 32,
+  "h": 31,
+  "ax": 16,
+  "ay": 15
+ },
+ "icons.tree": {
+  "f": "sprites/icons__tree.png",
+  "w": 28,
+  "h": 32,
+  "ax": 14,
+  "ay": 16
+ },
+ "icons.wrench": {
+  "f": "sprites/icons__wrench.png",
+  "w": 32,
+  "h": 32,
+  "ax": 16,
+  "ay": 16
+ },
+ "icons.megaphone": {
+  "f": "sprites/icons__megaphone.png",
+  "w": 32,
+  "h": 31,
+  "ax": 16,
+  "ay": 15
+ },
+ "icons.news": {
+  "f": "sprites/icons__news.png",
+  "w": 32,
+  "h": 31,
+  "ax": 16,
+  "ay": 15
+ },
+ "widgets.panel_wood": {
+  "f": "sprites/widgets__panel_wood.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "widgets.panel_paper": {
+  "f": "sprites/widgets__panel_paper.png",
+  "w": 62,
+  "h": 64,
+  "ax": 31,
+  "ay": 32
+ },
+ "widgets.btn": {
+  "f": "sprites/widgets__btn.png",
+  "w": 64,
+  "h": 30,
+  "ax": 32,
+  "ay": 15
+ },
+ "widgets.btn_pressed": {
+  "f": "sprites/widgets__btn_pressed.png",
+  "w": 64,
+  "h": 31,
+  "ax": 32,
+  "ay": 15
+ },
+ "widgets.slot": {
+  "f": "sprites/widgets__slot.png",
+  "w": 58,
+  "h": 64,
+  "ax": 29,
+  "ay": 32
+ },
+ "widgets.tooltip": {
+  "f": "sprites/widgets__tooltip.png",
+  "w": 64,
+  "h": 47,
+  "ax": 32,
+  "ay": 23
+ },
+ "widgets.bar_bg": {
+  "f": "sprites/widgets__bar_bg.png",
+  "w": 64,
+  "h": 55,
+  "ax": 32,
+  "ay": 27
+ },
+ "widgets.bar_fill": {
+  "f": "sprites/widgets__bar_fill.png",
+  "w": 64,
+  "h": 56,
+  "ax": 32,
+  "ay": 28
+ },
+ "widgets.window": {
+  "f": "sprites/widgets__window.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ },
+ "widgets.close_btn": {
+  "f": "sprites/widgets__close_btn.png",
+  "w": 62,
+  "h": 64,
+  "ax": 31,
+  "ay": 32
+ },
+ "widgets.scrollbar": {
+  "f": "sprites/widgets__scrollbar.png",
+  "w": 20,
+  "h": 64,
+  "ax": 10,
+  "ay": 32
+ },
+ "widgets.divider": {
+  "f": "sprites/widgets__divider.png",
+  "w": 64,
+  "h": 20,
+  "ax": 32,
+  "ay": 10
+ },
+ "widgets.badge_red": {
+  "f": "sprites/widgets__badge_red.png",
+  "w": 64,
+  "h": 57,
+  "ax": 32,
+  "ay": 28
+ },
+ "widgets.badge_green": {
+  "f": "sprites/widgets__badge_green.png",
+  "w": 64,
+  "h": 57,
+  "ax": 32,
+  "ay": 28
+ },
+ "widgets.frame_portrait": {
+  "f": "sprites/widgets__frame_portrait.png",
+  "w": 58,
+  "h": 64,
+  "ax": 29,
+  "ay": 32
+ },
+ "widgets.corner": {
+  "f": "sprites/widgets__corner.png",
+  "w": 64,
+  "h": 64,
+  "ax": 32,
+  "ay": 32
+ }
+}

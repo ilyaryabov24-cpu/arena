@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тихий Город — симулятор мера</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="boot">
+  <div id="boot-inner">
+    <div id="boot-title">ТИХИЙ ГОРОД</div>
+    <div id="boot-sub">симулятор мера · 2026</div>
+    <div id="boot-bar"><div id="boot-fill"></div></div>
+    <div id="boot-msg">загружаем спрайты…</div>
+  </div>
+</div>
+
+<div id="game-wrap" class="hidden">
+  <canvas id="view"></canvas>
+
+  <!-- верхняя панель -->
+  <div id="topbar" class="panel">
+    <div class="tb-item" title="Бюджет города (тыс. ₽)">
+      <img class="tb-ico" data-ico="icons.coins"><span id="hud-money">0</span>
+    </div>
+    <div class="tb-item" title="Жители">
+      <img class="tb-ico" data-ico="icons.people"><span id="hud-pop">0</span>
+    </div>
+    <div class="tb-item" title="Душевность">
+      <img class="tb-ico" data-ico="icons.heart"><span id="hud-soul">0</span>
+    </div>
+    <div class="tb-item" title="Туристы в городе">
+      <img class="tb-ico" data-ico="icons.travel"><span id="hud-tour">0</span>
+    </div>
+    <div class="tb-sep"></div>
+    <div class="tb-item small" title="Бензин и топливо">
+      <img class="tb-ico" data-ico="icons.fuel"><div class="meter"><div id="m-fuel"></div></div>
+    </div>
+    <div class="tb-item small" title="Электричество">
+      <img class="tb-ico" data-ico="icons.bolt"><div class="meter"><div id="m-power"></div></div>
+    </div>
+    <div class="tb-sep"></div>
+    <div id="hud-date" class="tb-date">
+      <span id="hud-season">лето</span> · <span id="hud-day">1</span> день · <span id="hud-clock">08:00</span>
+    </div>
+    <div class="tb-right">
+      <button id="btn-sound" class="icon-btn" title="Звук">♪</button>
+      <button id="btn-pause" class="icon-btn" title="Пауза">⏸</button>
+      <button id="btn-menu" class="icon-btn" title="Меню">≡</button>
+    </div>
+  </div>
+
+  <!-- новостная строка -->
+  <div id="ticker" class="panel"><span id="ticker-text"></span></div>
+
+  <!-- панель строительства -->
+  <div id="buildbar" class="panel">
+    <div id="bb-tabs"></div>
+    <div id="bb-items"></div>
+    <div id="bb-info"><span id="bb-info-text">Выбери, что построить. Город не любит спешки.</span></div>
+  </div>
+
+  <!-- диалог события -->
+  <div id="modal" class="hidden">
+    <div id="modal-box" class="panel">
+      <div id="modal-head"><img id="modal-portrait" alt=""><div><div id="modal-title"></div><div id="modal-sub"></div></div></div>
+      <div id="modal-text"></div>
+      <div id="modal-choices"></div>
+    </div>
+  </div>
+
+  <!-- меню -->
+  <div id="menu" class="hidden">
+    <div id="menu-box" class="panel">
+      <div id="menu-title">ТИХИЙ ГОРОД</div>
+      <button class="menu-btn" id="m-continue">Продолжить</button>
+      <button class="menu-btn" id="m-save">Сохранить</button>
+      <button class="menu-btn" id="m-help">Как играть</button>
+      <button class="menu-btn" id="m-restart">Новый город</button>
+      <div id="menu-help" class="hidden">
+        Ты — мэр маленького русского города, на дворе 2026 год.
+        Здесь нет победы и поражения — есть только город, люди и душевность.
+        Строи дома и дороги, следи за бензином и электричеством,
+        встречай туристов и переживай обычные российские будни:
+        тарифы ЖКХ, дефицит кадров, инфляцию и первый снег.
+        <br><br>ЛКМ — строить · ПКМ — отмена · WASD/стрелки — камера · Esc — закрыть.
+        Кликни по жителю — узнай, о чём он думает.
+      </div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+  <div id="thought" class="hidden"></div>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
