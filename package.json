@@ -1,0 +1,20 @@
+{
+  "name": "drone-strike-simulator",
+  "description": "DRONE STRIKE — arcade FPV strike-drone simulator. A complete WebGL 3D game.",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "assets": "node tools/export-assets.mjs"
+  },
+  "dependencies": {
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "vite": "^5.4.11"
+  }
+}
