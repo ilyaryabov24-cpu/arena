@@ -1,0 +1,2 @@
+-keep class com.lumi.ui.** { *; }
+-keepclassmembers class * extends androidx.room.RoomDatabase { *; }
