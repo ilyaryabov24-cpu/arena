@@ -1,0 +1,10 @@
+name: probe
+on:
+  push:
+    branches: [ 'arena/**' ]
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello from ${{ runner.os }}"; java -version; echo "ANDROID_HOME=$ANDROID_HOME"; ls $ANDROID_HOME 2>/dev/null
