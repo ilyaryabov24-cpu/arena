@@ -14,15 +14,42 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - uses: android-actions/setup-android@v3
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
+      - name: SDK info
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls "$ANDROID_HOME" || true
+          ls "$ANDROID_HOME/platforms" || true
+      - name: Install SDK packages
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null 2>&1 || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-35" "build-tools;35.0.0" > /dev/null 2>&1 || true
+      - name: Generate wrapper
+        run: gradle wrapper --gradle-version 8.9 --no-daemon -q || true
       - name: Build debug
-        run: gradle :app:assembleDebug --stacktrace --no-daemon
+        run: |
+          set -o pipefail
+          gradle :app:assembleDebug --no-daemon --console=plain 2>&1 | tee /tmp/build.log || true
+          python3 - <<'PY'
+          import re,os
+          log=open('/tmp/build.log',errors='ignore').read().splitlines()
+          errs=[l for l in log if re.search(r'^(e: |w: .*error|\s+error:|Execution failed|> Task .*FAILED|Caused by|\* What went wrong)',l)]
+          for l in errs[:60]:
+              print("::error::"+l.replace('\n',' ')[:900])
+          if not errs:
+              print("::warning::no explicit error lines captured")
+          PY
       - name: Upload apk
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: lumi-debug
-          path: app/build/outputs/apk/debug/*.apk
+          name: lumi-build
+          path: |
+            app/build/outputs/apk/debug/*.apk
+            gradle/wrapper/*
+            gradlew
+            gradlew.bat
+            /tmp/build.log
+          if-no-files-found: warn
