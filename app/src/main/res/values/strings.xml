@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LUMI UI</string>
+    <string name="launcher_name">LUMI Home</string>
+    <string name="wallpaper_label">LUMI Live Wallpaper</string>
+    <string name="wallpaper_description">Interactive live wallpapers built in the LUMI studio</string>
+    <string name="notification_listener_label">LUMI Notification Center</string>
+    <string name="control_tile_label">LUMI Control Center</string>
+    <string name="widget_provider_label">LUMI Widgets</string>
+</resources>

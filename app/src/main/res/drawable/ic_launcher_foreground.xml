@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- LUMI mark: a soft aperture ring with a light core -->
+    <path
+        android:pathData="M54,26a28,28 0 1,0 0.1,0z"
+        android:strokeWidth="4.5"
+        android:strokeColor="#FFFFFFFF"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,40a14,14 0 1,0 0.1,0z"
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.92" />
+    <path
+        android:pathData="M54,46.5a7.5,7.5 0 1,0 0.1,0z"
+        android:fillColor="#FF7FA9FF" />
+    <path
+        android:pathData="M54,18l2.6,7.2l7.6,1.1l-5.5,5.4l1.3,7.6L54,35.7l-6,3.6l1.3,-7.6l-5.5,-5.4l7.6,-1.1z"
+        android:fillColor="#66FFFFFF" />
+</vector>
